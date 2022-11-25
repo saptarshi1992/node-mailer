@@ -1,0 +1,27 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Send Emails From Your Node.js App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saptarshi1992/node-mailer.git"
+  },
+  "author": "saptarshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saptarshi1992/node-mailer/issues"
+  },
+  "homepage": "https://github.com/saptarshi1992/node-mailer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
